@@ -193,69 +193,9 @@ class Character extends FlxSprite
 				loadOffsets();
 
 				playAnim('idle');
-			case 'tails':
+			case 'amogus':
 				iconColor = 'FFAA6F';
-				frames = Paths.getSparrowAtlas('characters/tails','shared');
-				animation.addByPrefix('idle', "idle", 24, false);
-				animation.addByPrefix('singUP', "up", 24, false);
-				animation.addByPrefix('singRIGHT', "right", 24, false);
-				animation.addByPrefix('singLEFT', "left", 24, false);
-				animation.addByPrefix('singDOWN', "down", 24, false);
-
-				loadOffsets();
-				playAnim('idle');
-				setGraphicSize(Std.int(width * 0.65));
-				updateHitbox();
-
-				antialiasing = true;
-			case 'swagtails':
-				iconColor = 'FFAA6F';
-				frames = Paths.getSparrowAtlas('characters/swagtails','shared');
-				animation.addByPrefix('idle', "idle", 24, false);
-				animation.addByPrefix('singUP', "up", 24, false);
-				animation.addByPrefix('singRIGHT', "right", 24, false);
-				animation.addByPrefix('singLEFT', "left", 24, false);
-				animation.addByPrefix('singDOWN', "down", 24, false);
-
-				loadOffsets();
-				playAnim('idle');
-				setGraphicSize(Std.int(width * 0.65));
-				updateHitbox();
-
-				antialiasing = true;
-			case 'sonic':
-				iconColor = 'FFAA6F';
-				frames = Paths.getSparrowAtlas('characters/sonic','shared');
-				animation.addByPrefix('idle', "idle", 24, false);
-				animation.addByPrefix('singUP', "up", 24, false);
-				animation.addByPrefix('singRIGHT', "right", 24, false);
-				animation.addByPrefix('singLEFT', "left", 24, false);
-				animation.addByPrefix('singDOWN', "down", 24, false);
-
-				loadOffsets();
-				playAnim('idle');
-				setGraphicSize(Std.int(width * 0.7));
-				updateHitbox();
-
-				antialiasing = true;
-			case 'sonic-forced':
-				iconColor = 'FFAA6F';
-				frames = Paths.getSparrowAtlas('characters/sonic_forced','shared');
-				animation.addByPrefix('idle', "idle", 24, false);
-				animation.addByPrefix('singUP', "up", 24, false);
-				animation.addByPrefix('singRIGHT', "right", 24, false);
-				animation.addByPrefix('singLEFT', "left", 24, false);
-				animation.addByPrefix('singDOWN', "down", 24, false);
-
-				loadOffsets();
-				playAnim('idle');
-				setGraphicSize(Std.int(width * 0.7));
-				updateHitbox();
-
-				antialiasing = true;
-			case 'sonic-mad':
-				iconColor = 'FFAA6F';
-				frames = Paths.getSparrowAtlas('characters/sonic_mad','shared');
+				frames = Paths.getSparrowAtlas('characters/amogus','shared');
 				animation.addByPrefix('idle', "idle", 24, false);
 				animation.addByPrefix('singUP', "up", 24, false);
 				animation.addByPrefix('singRIGHT', "right", 24, false);
