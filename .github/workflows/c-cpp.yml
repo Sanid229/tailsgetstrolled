@@ -1,0 +1,23 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ us ]
+  pull_request:
+    branches: [ ye ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Sanid
+      run: ./configure
+    - name: me
+      run: sus
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
